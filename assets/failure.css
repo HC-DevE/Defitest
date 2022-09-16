@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+    .container {
+        position: absolute;
+        left:25%;
+        bottom: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 50vw;
+        background-color: rgb(151, 41, 41);
+        border: solid 1px black;
+        box-shadow: 0 0 10px 10px rgb(151, 41, 41);
+        background: linear-gradient(125deg, red, black);
+    }
+
+    .container h1 {
+        position: relative;
+        /* bottom: 20%;
+        right:20%; */
+        font-size: 2.5rem;
+        color: black;
+        text-shadow: 0 0 5px black;
+    }
